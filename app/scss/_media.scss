@@ -1,0 +1,189 @@
+/*********************************************\
+		Desktop First Method
+\*********************************************/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.menu-top {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 70%;
+		background-color: #01296e;
+		z-index: 1;
+		padding: 15px;
+
+		&__list {
+			text-align: center;
+		}
+
+		&__item {
+			display: block;
+			padding: 25px 0 0 0 !important;
+		}
+
+		&__link {
+			display: inline-block;
+			color: $header-color-mob;
+		}
+	}
+
+	.burger-top {
+		position: relative;
+		float: right;
+		display: block;
+		width: 33px;
+		height: 73px;
+		margin: auto 0;
+		cursor: pointer;
+
+		&__icon,
+		&__icon:after,
+		&__icon:before {
+			content: " ";
+			position: absolute;
+			right: 0;
+			height: 3px;
+			width: 100%;
+			background-color: $header-color-hover;
+			cursor: pointer;
+			transition: all 1s;
+		}
+
+		&__icon {
+			top: 10%;
+
+			&:before {
+				bottom: 8px;
+			}
+
+			&:after {
+				top: 8px;
+			}
+
+			&.active {
+				background-color: transparent;
+
+				&:before {
+					top: 0;
+					transform: rotate(45deg);
+				}
+
+				&:after {
+					top: 0;
+					transform: rotate(-45deg);
+				}
+			}
+		}
+	}
+
+	.timeline-item {
+		width: 100%;
+
+		&__left {
+			padding-right: 10px;
+		}
+
+		&__right {
+			padding-left: 10px;
+		}
+	}
+
+	.section-control__item:not(:last-child) {
+		margin-right: 1%;
+	}
+
+	.main-footer__padding {
+		padding: 0;
+	}
+
+	.tab-content {
+
+		&__img {
+			float: none;
+			margin: 0 auto 30px auto;
+			width: 320px;
+		}
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}	
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+}
+
+
+/*********************************************\
+		Mobile First Method
+\*********************************************/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Raleway-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Raleway/Raleway-Light/Raleway-Light.eot?") format("eot"), url("../fonts/Raleway/Raleway-Light/Raleway-Light.woff2") format("woff2"), url("../fonts/Raleway/Raleway-Light/Raleway-Light.woff") format("woff"), url("../fonts/Raleway/Raleway-Light/Raleway-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Raleway-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Raleway/Raleway-Medium/Raleway-Medium.eot?") format("eot"), url("../fonts/Raleway/Raleway-Medium/Raleway-Medium.woff2") format("woff2"), url("../fonts/Raleway/Raleway-Medium/Raleway-Medium.woff") format("woff"), url("../fonts/Raleway/Raleway-Medium/Raleway-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Raleway-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Raleway/Raleway-Regular/Raleway-Regular.eot?") format("eot"), url("../fonts/Raleway/Raleway-Regular/Raleway-Regular.woff2") format("woff2"), url("../fonts/Raleway/Raleway-Regular/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway/Raleway-Regular/Raleway-Regular.ttf") format("truetype"); }

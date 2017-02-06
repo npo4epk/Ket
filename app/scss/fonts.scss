@@ -1,0 +1,11 @@
+//*********************************************
+// @IMPORT
+//*********************************************
+@import "_mixins.scss";
+
+//*********************************************
+// FONTS
+//*********************************************
+@include font-face('Raleway-Light', '../fonts/Raleway/Raleway-Light/Raleway-Light', normal, normal, eot woff2 woff ttf);
+@include font-face('Raleway-Medium', '../fonts/Raleway/Raleway-Medium/Raleway-Medium', normal, normal, eot woff2 woff ttf);
+@include font-face('Raleway-Regular', '../fonts/Raleway/Raleway-Regular/Raleway-Regular', normal, normal, eot woff2 woff ttf);
